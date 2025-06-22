@@ -12,7 +12,7 @@ attr_reader :titulo, :autor
 end 
 
 livro_azul = Livro.new("um menino harry", "jhon")
-livro_vermelho = Livro.new("diario de um banana", "tom mason")
+livro_vermelho = Livro.new("diario de um banana", "Jeff Kinney")
 
 livro_azul.detalhes 
 livro_vermelho.detalhes
